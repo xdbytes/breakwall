@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Ape, server: ape.ibits.top, port: 16493, type: trojan, password: qLg71gu0Sl, sni: ape.ibits.top, skip-cert-verify: true, udp: true}
+  - {name: Ape, server: flash.ibits.top, port: 19954, type: trojan, password: XwPldIezQv, sni: flash.ibits.top, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
